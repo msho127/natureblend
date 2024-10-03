@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 100%;
+    /* border: solid 1px tomato; */
+}
+
+#container{
+    margin: 0 auto;
+}
+
+.newsborder{
+    width: 54%;
+    height: 100%;
+    background-color: skyblue;
+    margin: 5% auto;
+    border-radius: 1rem; /*角*/
+}
+
+.newstitle{
+    padding: 2%;
+    margin: 2%;
+    border-bottom: #000 1px solid;
+}
+
+.newstext{
+    /* border: tomato 1px solid; */
+    height: 100%;
+    width: 88%;
+    margin: 0 auto;
+    padding-bottom: 3%;
+}
+
+.back,
+a.back,
+button.back{
+    width: 20%;
+    margin: 5% auto;
+    font-size: 1.6rem;
+    padding: 1rem 4rem;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    color: #212529;
+    border-radius: 3rem; /*角*/
+}
+
+.back,
+a.back {
+    color: #fff;
+}
+
+.back,
+a.back {
+    color: #fff;
+    background: skyblue;
+}
+
+.back a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+    color: #000;
+}
+
+.title{
+    clear: both;
+    text-align: center;
+    padding: 8% 0% 5%;
+}
+
+.title p{
+    font-size: 1em;
+}
+
+.title h1{
+    font-size: 1.5em;
+}
+
+.newsitem{
+    clear: both;
+    width: 70%;
+    max-height: 20%;
+    margin: auto;
+    text-align: left;
+    padding: 1%;
+    border-top: #000 1px solid;
+}
+
+.newsitem li{
+    display: inline-block;
+}
+
+.newsitem a:hover{
+    color: #C9C9C9;
+
+}
+
+.newsmenu{
+    width: 76%;
+    padding: 1% 4%;
+    display: inline-block;
+}
+
+.newsmenu2{
+    width: 80%;
+    padding: 1% 2%;
+    display: inline-block;
+}
+
+.newsmenu2{
+    font-size: 1.6em;
+}
+
+.newsmenuimg{
+    width: 15%;
+    float: left;
+}

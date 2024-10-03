@@ -1,0 +1,183 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 100%;
+    /* border: solid 1px tomato; */
+}
+
+#container{
+    margin: 0 auto;
+}
+
+.concept{
+    /* border: 1px solid tomato; */
+    margin: 30px;
+    text-align: center;
+    color: #935656;
+}
+
+#newsnav {
+    width: auto;
+    height: 100%;
+    margin: 0 23% 5%;
+    background-color: #E6E6E6;
+    border-radius: 1rem; /*角*/
+}
+
+#newsnav p{
+    width: 20%;
+    margin: 1% 1%;
+    padding: 1% 0% 6%;
+    float: left;
+    border-right: 1px solid #000;
+}
+
+.newsmenu a{
+    height: 30px;
+    display: flex;
+    margin-left: 23%;
+    padding-left: 1%;
+    -webkit-align-items: flex-start;
+    align-items: flex-start;
+    -webkit-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+    display: block;
+}
+
+#newsnav ul{
+    padding: 1%;
+}
+
+.newsmenu a:hover{
+    color: #fff;
+    color: #C9C9C9;
+}
+
+.site{
+    clear: both;
+    width: auto;
+    /* margin: 0 23%; */
+    padding: 0% 23% 1%;
+    padding-bottom: 1%;
+    background-color: #E2FCDF;
+    border-radius: 1rem; /*角*/
+}
+
+.siteimg1 li{
+    float: left;
+	margin: 1% 1.5% 0%;
+	text-align:center;
+    cursor: pointer;
+    overflow: hidden;
+    max-height: 230px;
+    width: 30%;
+    border-radius: 50%;
+}
+
+.siteimg1 img{
+    height: auto;
+    transition: transform .6s ease;/* ゆっくり変化させる */
+    width: 100%;
+}
+
+.siteimg:hover img {
+    transform: scale(1.1);/* 拡大 */
+}
+
+.siteimg2 p{
+    float: left;
+    width: 30%;
+    padding: 1% 0% 0%;
+    margin: 0% 1.5% 2%;
+    text-align: center;
+    display: block;
+    /* border: #000 1px solid; */
+}
+
+.sitetitle{
+    padding: 2% 2% 0%;
+    margin: 1% 3% 3%;
+    border-bottom: #000 1px solid;
+}
+
+.site a{
+    display: block;
+    text-decoration: none;
+    color: #000;
+}
+
+.site a:hover{
+    color: #C9C9C9;
+}
+
+.sitemap{
+    clear: both;
+    text-align: center;
+}
+
+.reserve,
+a.reserve,
+button.reserve{
+    width: 20%;
+    margin: 5% auto;
+    font-size: 1.6rem;
+    padding: 1rem 4rem;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    color: #212529;
+    border-radius: 3rem; 
+}
+
+.reserve,
+a.reserve {
+    color: #fff;
+}
+
+.reserve,
+a.reserve {
+    color: #fff;
+    background: skyblue;
+}
+
+.reserve a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+    color: #000;
+}
+
+.access{
+    /* border: blue 1px solid; */
+    width: auto;
+    height: 100%;
+    /* margin: 0 23%; */
+    padding: 0% 23% 1%;
+    /* padding-bottom: 1%; */
+    background-color: #E8F7FA;
+    border-radius: 1rem; /*角*/
+    
+}
+
+.access2{
+    padding: 2% 2% 0;
+    margin: 1% 3% 1%;
+    border-bottom: 1px solid #000;
+}
+
+.access3{
+    padding: 1% 2%;
+    margin: 0 3%;
+}
+
+.access4{
+    padding: 0 2%;
+    margin: 0 3% 0 15%;
+}
+
+.accessmap{
+    /* border: 1px solid tomato; */
+    margin: 4% 5% 2%;
+}
+

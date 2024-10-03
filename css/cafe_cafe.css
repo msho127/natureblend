@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 100%;
+    /* border: solid 1px tomato; */
+}
+
+#container{
+    margin: 0 auto;
+}
+
+.reserve,
+a.reserve,
+button.reserve{
+    width: 20%;
+    margin: 5% auto;
+    font-size: 1.6rem;
+    padding: 1rem 4rem;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    color: #212529;
+    border-radius: 3rem; /*角*/
+}
+
+.reserve,
+a.reserve {
+    color: #fff;
+}
+
+.reserve,
+a.reserve {
+    color: #fff;
+    background: skyblue;
+}
+
+.reserve a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+    color: #000;
+}
+
+.concept{
+    margin: 0% 27%;
+    text-align: center;
+    /* font-family: "cursive"; */
+}
+
+.building{
+    margin: 5% 10%;
+}
+
+.building img{
+    width: 65%;
+}
+
+.building p{
+    margin-left: 1%;
+    font-size: 0.8;
+    /* letter-spacing: 0.1em; */
+}
+
+.buildingtext1{
+    float: left;
+    padding: 2% 1%;
+    width: 32%;
+    text-align: left;
+}
+
+.buildingtext2{
+    float: right;
+    padding: 4% 0%;
+    width: 28%;
+    text-align: left;
+}
+
+.buildingtext1 h2{
+    font-size: em;
+}
+
+.buildingtext10{
+    font-size: 1.7em;
+    padding: 0% 0% 5%;
+}
+
+.buildingtext1 a{
+    float: left;
+    width: 20%;
+    margin: 10% 0% 0% 70%;
+    background-color: #E6E6E6;
+    border-radius: 1rem; /*角*/
+}
+
+.buildingtext1 a{
+    display: block;
+    color: #000;
+    text-decoration: none;
+}
+
+.cafemanu11{
+    text-align: center;
+    margin: 5%;
+    padding: 1% 5%;
+}
+

@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 100%;
+    /* border: solid 1px tomato; */
+}
+
+#container{
+    margin: 0 auto;
+}
+
+.title{
+    clear: both;
+    text-align: center;
+    padding: 8% 0% 5%;
+}
+
+.title p{
+    font-size: 1em;
+}
+
+.title h1{
+    font-size: 1.5em;
+}
+
+.access{
+    width: 90%;
+    margin: auto;
+}
+
+.access000{
+    float: left;
+    width: 30%;
+}
+
+.access2{
+    font-size: 200%;
+}
+
+.access3{
+    padding: 10% 0% 0%;
+}
+
+.access4{
+    padding: 10% 0% 0%;
+}
+
+.accessmap{
+    float: right;
+    width: 70%;
+}
+
+.Transportation{
+    width: 90%;
+    margin: auto;
+    /* border: skyblue 1px solid; */
+}

@@ -1,0 +1,81 @@
+.logo{
+    width: 50%;
+    margin-left: 23%;
+}
+
+.mainvisual{
+    width: 100%;
+    margin: 0 auto;
+}
+
+#nav{
+    width: 100%;
+    float: left;
+    margin-bottom: 10px;
+}
+
+#nav a{
+    display: block;
+}
+
+#nav a:hover{
+    color: #fff;
+    background-color: gray;
+}
+
+.navul{
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+    font-size: small;
+    color: #000;
+}
+
+.cafe{
+    width: 10%;
+    text-align: center;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+}
+
+.camp{
+    width: 10%;
+    text-align: center;
+    border-right: 1px solid #000;
+}
+
+.cottage{
+    width: 10%;
+    text-align: center;
+    border-right: 1px solid #000;
+}
+
+.access1{
+    width: 10%;
+    text-align: center;
+    border-right: 1px solid #000;
+}
+
+.news{
+    width: 10%;
+    text-align: center;
+    border-right: 1px solid #000;
+}
+
+.overview{
+    width: 10%;
+    text-align: center;
+    border-right: 1px solid #000;
+}
+
+.blank{
+    width: 12.5%;
+    text-align: center;
+}
